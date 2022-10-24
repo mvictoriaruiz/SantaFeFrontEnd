@@ -16,7 +16,17 @@ header {display: flex;
   color: #943126;
   text-align: center;
   text-decoration: underline;
+  font-family: 'Bangers', cursive;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Sriracha', cursive;
 }
+
+nav {display: flex;
+    justify-content: space-around;
+    background-color:#F4D03F;
+    border: 1px solid red;
+    padding: 10px;}
 
 .objeto1 {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
   .imagen {width: 30%;}
@@ -29,7 +39,8 @@ header {display: flex;
 h2 {background-color:tomato; text-align: center; text-decoration: underline;}
 p {font-size: medium; text-align: center;}
 h3 {color: #DC7633; font-style: italic;}
-a {color: #B03A2E; font-weight: bold;}
+a {color: #B03A2E;}
+a:hover {font-weight: bold;}
 
 aside {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
 .video {width: 48%; border: 1px solid black; text-align: center;}
@@ -38,16 +49,22 @@ aside {display: flex; flex-wrap: wrap; justify-content: space-between; align-ite
 .masrecetas {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border: 2px solid black; padding: 30px;}
 
 .iconowp {width: 40px; position: fixed; bottom: 10px; right: 10px;}
-.iconoig {width: 40px; bottom: 10px; left: 10px;}
-.iconofb {width: 40px; bottom: 10px; left: 10px;}
-.iconotw {width: 40px; bottom: 10px; left: 10px;}
-.iconoyt {width: 40px; bottom: 10px; left: 10px;}
+.iconoig {width: 40px;}
+.iconofb {width: 40px;}
+.iconotw {width: 40px;}
+.iconoyt {width: 40px;}
 
 footer {display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         background-color: #F5B7B1;
-        border: 2px dashed black;
+        border: 2px dashed black;}
 
-}
+.caja1 {text-align: center;sss}
+.call {width: 50vw;
+      height: 50vh;}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.tituloc {font-family: 'Permanent Marker', cursive;
+          text-align: center;}
