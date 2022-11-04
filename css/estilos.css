@@ -2,6 +2,7 @@ body {background-color: #F8C471;font-family: Tahoma; background-image: url(../im
 background-size: cover; background-attachment: fixed;}
 
 .logo {width: 100px;}
+.bandera {width: 150px;}
 
 header {display: flex;
         justify-content: center;
@@ -12,6 +13,7 @@ header {display: flex;
         background-color: #F5B7B1;
         border: 6px double black;
 }
+
 .titulo {
   color: #943126;
   text-align: center;
@@ -22,15 +24,18 @@ header {display: flex;
   font-family: 'Sriracha', cursive;
 }
 
+
 nav {display: flex;
     justify-content: space-around;
     background-color:#F4D03F;
     border: 1px solid red;
     padding: 10px;}
 
-.objeto1 {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
-  .imagen {width: 30%;}
-  .parraf {width: 60%;}
+
+
+.objeto1 {display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+  .imagen img {width: 450px;}
+  .parraf {width: 700px; border: 1px solid red; margin-left: 50px;}
 
 .objeto2 {display: flex; flex-wrap: wrap; background-color:#F6DDCC; margin: 10px; justify-content: space-between;}
   .ingredientes{width: 45%; border: 1px solid black; padding: 20px; align-items: center;}
@@ -42,9 +47,10 @@ h3 {color: #DC7633; font-style: italic;}
 a {color: #B03A2E;}
 a:hover {font-weight: bold;}
 
-aside {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
-.video {width: 48%; border: 1px solid black; text-align: center;}
-.mapa {width: 48%; border: 1px solid black; text-align: center; font-weight: bold;}
+aside {display: flex; flex-wrap: wrap; justify-content: space-between; background-color:#F6DDCC;}
+  .video {width: 600px; border: 1px solid black; align-items: center; }
+  .mapa {width: 600px; border: 1px solid black; text-align: center; font-weight: bold;}
+
 
 .masrecetas {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border: 2px solid black; padding: 30px;}
 
@@ -61,10 +67,31 @@ footer {display: flex;
         background-color: #F5B7B1;
         border: 2px dashed black;}
 
-.caja1 {text-align: center;sss}
+.caja1 {text-align: center;}
 .call {width: 50vw;
       height: 50vh;}
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 .tituloc {font-family: 'Permanent Marker', cursive;
           text-align: center;}
+
+
+
+nav:hover {text-decoration: none;
+          background-color: #A2D9CE;
+          height: 20px;
+  }
+
+
+@media (min-width: 767px) {
+              .tomate, .imagen {display: none;}
+              header {background-color: white;}
+              h2 {background-color: #D2B4DE;}
+              h3 {color: black;}
+}
+
+  @media (max-width: 768px) {
+          .bandera {display: none;}
+          body {background-image: none;
+                background-color:#F9E79F;} 
+  }
