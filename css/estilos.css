@@ -1,5 +1,8 @@
-body {background-color: #F8C471;font-family: Tahoma; background-image: url(../imagenes/fondo_bco.jpg); background-repeat: no-repeat;
-background-size: cover; background-attachment: fixed;}
+body {background-color: #D1F2EB; font-family: Tahoma;
+  background-image: url(../imagenes/fondo_bco.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}
 
 .logo {width: 100px;}
 .bandera {width: 150px;}
